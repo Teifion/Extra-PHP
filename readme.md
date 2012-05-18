@@ -4,3 +4,7 @@ Snippet list
 ------------
 
 heredoc: Starts a heredoc block
+
+query: A set of MySQL query templates
+
+ternary: The ternary operator

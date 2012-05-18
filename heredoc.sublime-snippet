@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<<<EOT
+${2:content here};
+EOT;]]></content>
+    <tabTrigger>heredoc</tabTrigger>
+    <scope>source.php</scope>
+    <description>Heredoc</description>
+</snippet>

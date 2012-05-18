@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\$query = "${0:}";
+\$result = mysql_query(\$query) or die('Invalid query<br />Error: ' . mysql_error() . '<br />Line: ' . __LINE__ . '<br />File: ' . __FILE__ . '<br />Query: ' . str_replace("\n", '<br />', \$query));
+]]></content>
+    <tabTrigger>query</tabTrigger>
+    <scope>source.php</scope>
+    <description>MySQL query no result full error report</description>
+</snippet>

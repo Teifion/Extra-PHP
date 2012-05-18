@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[\$query = "${0:}";
+\$result = mysql_query(\$query) or die('Invalid query<br />Error: ' . mysql_error() . '<br />Line: ' . __LINE__ . '<br />File: ' . __FILE__ . '<br />Query: ' . str_replace("\n", '<br />', \$query));
+
+\$row = mysql_fetch_assoc(\$result);//If you are using a multirow query, remove this line
+
+while (\$row = mysql_fetch_assoc(\$result))
+{
+    
+}]]></content>
+    <tabTrigger>query</tabTrigger>
+    <scope>source.php</scope>
+    <description>MySQL query full error report</description>
+</snippet>

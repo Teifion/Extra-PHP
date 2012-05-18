@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\$query = "${0:}";
+\$result = mysql_query(\$query) or die('There was an error in running the query on ' . __LINE__ . ' of ' . __FILE__);
+]]></content>
+    <tabTrigger>query</tabTrigger>
+    <scope>source.php</scope>
+    <description>MySQL query no result</description>
+</snippet>
