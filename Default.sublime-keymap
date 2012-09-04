@@ -1,0 +1,5 @@
+[  
+    {  
+        "keys": ["ctrl+shift+["], "command": "insert_snippet", "args": {"contents": "\n{\n\t${:0}\n}"}
+    }
+]
